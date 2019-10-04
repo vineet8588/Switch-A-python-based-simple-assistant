@@ -17,6 +17,19 @@ def speak(text):
 print("Switch ON")
 speak("Switch ON")
 speak("hey there this is switch.")
+print("Here is a list of things I can do->")
+speak("Here is a list of things I can do.")
+
+print("-----------------------------------------------------------------------------------------------------")
+print("Say 'Change voice' to change my voice")
+print("Say 'Open' + 'Application name'")
+print("Say 'Music' to play audio in D or E drive root")
+print("Say 'What time is it' to get current time")
+print("Say 'What is'/'Who is' + 'Anything u want to know about'")
+print("Say 'Where is' + 'place' for its location on maps")
+print("Say 'exit' to exit ")
+print("-----------------------------------------------------------------------------------------------------")
+
 
 def listen():
     r=sr.Recognizer()
